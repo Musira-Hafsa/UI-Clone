@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fef2c0;
+    color: #1a1a1a;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin:200px auto;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: #fffef9;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .badge {
+    background: linear-gradient(90deg, #ff5d73, #ff9966);
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 500;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .badge:hover {
+    transform: scale(1.05);
+  }
+  .span{
+    color: #333;
+    margin: 0 48px ;
+}
+   
+  .span1{
+    margin: 0 16px;
+    cursor: pointer;
+  }
+  .span2{
+    margin: 0 16px;
+    cursor: pointer;
+  }
+  .span3{
+    margin: 0 16px;
+    cursor: pointer;
+  }
+  .signin{
+    margin-left: 150px;
+  
+  }
+.btn{
+    background-color: #2a6eea;
+    color: white;
+    padding:  8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.main{
+ display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap; 
+}
+
+.content h1{
+    font-size: 32px;
+  margin-bottom: 16px;
+}
+
+ .email{
+  display: flex;
+  gap: 16px;
+  margin: 16px 0px;
+}
+.disclaimer {
+  font-size: 14px;
+  color: #666;
+}
+
+.right{
+   margin-top: 50px;
+    max-width: 300px;
+    
+  } 
+  .image img{
+    width: 300px;
+    
+  }
+  .support {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2px;
+  }
+  .support a{
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+  .avator{
+    margin-top:60px ;
+    
+  }
+ 
+  footer {
+    font-size: 14px;
+  }
+  
+  footer a {
+    margin: 0 6px;
+    text-decoration: none;
+    color: #666;
+  }
+  
+  
